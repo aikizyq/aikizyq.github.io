@@ -1,0 +1,99 @@
+
+BODY {
+      cursor:url('img/cur/aiki.ani'); 
+      
+      scrollbar-face-color: white;
+      scrollbar-arrow-color: blue;
+      
+      scrollbar-darkshadow-color: white;
+      scrollbar-highlight-color: white;
+      
+      color: auto;
+      font-family: arial;
+      background-color: white
+}
+
+A:link,:visited,:active { 
+                         color: red; 
+			 text-decoration: none;
+                         cursor: url('img/cur/aiki.ani')
+}
+
+A:hover { text-decoration: underline; color: blue }     
+
+A.under:link,A.under:visited,A.under:active { 
+                                             text-decoration: underline;
+                                             font-weight: 700
+}
+
+A.under:hover,A.under:visited,A.under:active { font-weight: 700 }
+table.menu{width:100%; text-align:center;}
+
+HR { 
+     color: red;
+     height: 0;
+}  
+
+H3 {
+     color: red;
+     font-weight: normal 
+ }
+
+ dl.date dt{color:#5D8AA8;}
+ h1{text-align:center; font-weight:bolder; font-size:15; color:#0000aa;
+ }
+ h2{
+	text-align:center; font-weight:bolder; font-size:15; color:red; 
+	 
+ }
+
+IMG { text-align:center; border: none; }
+
+ul.menu {text-align:right;}
+.autor {   
+           color: red;
+           text-align: right; 
+           font-size: 8pt
+}
+
+.sel { 
+          color: blue;
+           
+}
+
+
+.header {
+         color: red;
+         font-weight: normal 
+}
+
+.comment {   
+           text-align: right; 
+           font-size: 8pt        
+}
+
+.comm-blink {   
+              text-align: right; 
+              font-size: 8pt;
+              text-decoration: blink
+}
+
+.normal { font-size: 10pt }
+
+
+.normal_sel {
+             font-size: 10pt;
+             font-weight: 700
+}
+
+.normal_red {
+             color:red;
+             font-size: 10pt
+}
+
+.space {color: white}
+
+.sdate {
+        color: blue;
+        font-size: 10pt;
+}
