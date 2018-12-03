@@ -1,0 +1,22 @@
+{
+  "name": "aikizyq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "browser-sync start --server --files '**/*.html' '**/*.css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aikizyq/aikizyq.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aikizyq/aikizyq.github.io/issues"
+  },
+  "homepage": "https://github.com/aikizyq/aikizyq.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}
