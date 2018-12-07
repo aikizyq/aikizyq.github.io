@@ -1,0 +1,46 @@
+body {
+  max-width: 40rem; 
+  margin: auto;
+  padding: 13px;
+}
+
+body > header {
+  text-align: center;
+}
+
+body > header img {
+  max-width: 50%;
+}
+
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+address {
+  font-style: normal;
+  margin-top: 0.3rem;
+}
+
+article {
+  margin-top: 3rem;
+}
+
+article header .date {
+  font-family: "Poiret One", cursive;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  display: inline-block;
+}
+
+article header h3 {
+  margin-top: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
